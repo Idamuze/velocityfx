@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VelocityFX - Advanced Forex Trading Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="VelocityFX">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">VelocityFX</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trading">Trading</a></li>
+                <li><a href="#markets">Markets</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="cta-nav">
+                <div class="language-selector">
+                    <select class="language-dropdown" id="languageSelector">
+                        <option value="en">🇺🇸 EN</option>
+                        <option value="es">🇪🇸 ES</option>
+                        <option value="fr">🇫🇷 FR</option>
+                        <option value="de">🇩🇪 DE</option>
+                        <option value="ja">🇯🇵 JP</option>
+                        <option value="zh">🇨🇳 CN</option>
+                    </select>
+                </div>
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+                <a href="#" class="btn btn-secondary">Login</a>
+                <a href="#" class="btn btn-primary" id="registerBtn">Start Trading</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Trade Forex Like a Pro</h1>
+                    <p>Access global markets with lightning-fast execution, advanced analytics, and institutional-grade tools. Start your journey to financial freedom today.</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">0.1s</div>
+                            <div class="stat-label">Avg Execution</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Currency Pairs</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Market Access</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <a href="#" class="btn btn-primary" id="heroRegisterBtn" style="margin-right: 1rem;">Open Live Account</a>
+                        <a href="#" class="btn btn-secondary">Try Demo</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="trading-card">
+                        <div style="font-size: 1.2rem; margin-bottom: 1rem; color: #666;">EUR/USD</div>
+                        <div class="price-display">1.0847</div>
+                        <div class="price-change">+0.0023 (+0.21%)</div>
+                        <div style="margin-top: 1rem; font-size: 0.9rem; color: #999;">Live Market Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="trading">
+        <div class="container">
+            <h2 class="section-title">Why Choose VelocityFX?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast Execution</h3>
+                    <p>Execute trades in milliseconds with our cutting-edge infrastructure and direct market access.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Bank-Grade Security</h3>
+                    <p>Your funds are protected with advanced encryption and segregated accounts in top-tier banks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Make informed decisions with real-time market data, technical indicators, and AI-powered insights.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Multi-Platform Trading</h3>
+                    <p>Trade seamlessly across desktop, mobile, and tablet with our synchronized trading platform.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Tight Spreads</h3>
+                    <p>Competitive pricing with spreads starting from 0.1 pips on major currency pairs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Award-Winning Support</h3>
+                    <p>Get help when you need it with our 24/7 multilingual customer support team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="platform" id="markets">
+        <div class="container">
+            <div class="platform-content">
+                <div class="platform-text">
+                    <h2>Professional Trading Platform</h2>
+                    <p>Experience the power of our proprietary trading platform, designed for both beginners and professional traders.</p>
+                    <ul class="platform-features">
+                        <li>Real-time market data and charts</li>
+                        <li>50+ technical indicators</li>
+                        <li>One-click trading</li>
+                        <li>Risk management tools</li>
+                        <li>Automated trading strategies</li>
+                        <li>Market news and analysis</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Download Platform</a>
+                </div>
+                <div class="platform-mockup">
+                    <div class="chart-placeholder">
+                        📈 Live Trading Chart
+                    </div>
+                    <div class="trading-buttons">
+                        <button class="btn btn-buy">BUY</button>
+                        <button class="btn btn-sell">SELL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer sections -->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VelocityFX. All rights reserved. Trading involves risk and may not be suitable for all investors.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Registration Modal -->
+    <div class="modal" id="registrationModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <h2 style="text-align: center; margin-bottom: 1rem;">Open Your Trading Account</h2>
+            <div class="step-indicator">
+                <div class="step active" data-step="1">1</div>
+                <div class="step" data-step="2">2</div>
+                <div class="step" data-step="3">3</div>
+            </div>
+            <form id="registrationForm">
+                <div class="form-step active" data-step="1">
+                    <h3>Personal Information</h3>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country" required>
+                            <option value="">Select Country</option>
+                            <option value="US">United States</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="CA">Canada</option>
+                            <option value="AU">Australia</option>
+                            <option value="DE">Germany</option>
+                            <option value="FR">France</option>
+                            <option value="JP">Japan</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-step" data-step="2">
+                    <h3>Account Details</h3>
+                    <div class="form-group">
+                        <label for="accountType">Account Type</label>
+                        <select id="accountType" name="accountType" required>
+                            <option value="">Select Account Type</option>
+                            <option value="standard">Standard Account</option>
+                            <option value="premium">Premium Account</option>
+                            <option value="vip">VIP Account</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="initialDeposit">Initial Deposit (USD)</label>
+                        <select id="initialDeposit" name="initialDeposit" required>
+                            <option value="">Select Amount</option>
+                            <option value="250">$250 - $999</option>
+                            <option value="1000">$1,000 - $4,999</option>
+                            <option value="5000">$5,000 - $9,999</option>
+                            <option value="10000">$10,000+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Trading Experience</label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select Experience</option>
+                            <option value="beginner">Beginner (0-1 years)</option>
+                            <option value="intermediate">Intermediate (1-3 years)</option>
+                            <option value="advanced">Advanced (3+ years)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                </div>
+
+                <div class="form-step" data-step="3">
+                    <h3>Email Verification</h3>
+                    <p style="text-align: center; margin-bottom: 1rem;">We've sent a verification code to your email address.</p>
+                    <div class="verification-code">
+                        <input type="text" maxlength="1" class="code-input">
+                        <input type="text" maxlength="1" class="code-input">
+                        <input type="text" maxlength="1" class="code-input">
+                        <input type="text" maxlength="1" class="code-input">
+                        <input type="text" maxlength="1" class="code-input">
+                        <input type="text" maxlength="1" class="code-input">
+                    </div>
+                    <p style="text-align: center; font-size: 0.9rem; color: #666;">
+                        Didn't receive the code? <a href="#" style="color: #667eea;">Resend</a>
+                    </p>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" id="prevStep" style="display: none;">Previous</button>
+                    <button type="button" class="btn btn-primary" id="nextStep" style="flex: 1;">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Live Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <div>💬 Live Support</div>
+                <button id="closeChatBtn">&times;</button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message agent">
+                    👋 Hello! I'm Sarah from VelocityFX support. How can I help you today?
+                </div>
+                <div class="typing-indicator" id="typingIndicator">
+                    <div class="typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span style="margin-left: 10px;">Agent is typing...</span>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button id="sendChatBtn">➤</button>
+            </div>
+        </div>
+        <button class="chat-button" id="chatButton">💬</button>
+    </div>
+
+    <!-- PWA Install Prompt -->
+    <div class="pwa-install" id="pwaInstall">
+        <div>📱 Install VelocityFX for quick access!</div>
+        <div style="margin-top: 0.5rem;">
+            <button id="installBtn">Install</button>
+            <button id="dismissBtn">Dismiss</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
